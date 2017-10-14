@@ -13,7 +13,8 @@ let motivos = [
 	'Meu trabalho esta  matando a minha criatividade',
 	'Patch de correção para um problema que foi criado por um patch anterior',
 	'Deixaram pra contratar a consultoria quando começou a dar merda',
-	'O planejamento do projeto se resume a fazer tudo no tempo'
+	'O planejamento do projeto se resume a fazer tudo no tempo',
+	'Não entendi a change, mas os totais voltaram a bater'
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
