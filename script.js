@@ -10,6 +10,7 @@ let motivos = [
 	'A empresa usa Sybase',
 	'O comercial vendeu uma feature que não existe no sistema', 
 	'Agendaram a homologação do sistema para às 18h de sexta',
+	'Patch de correção para um problema que foi criado por um patch anterior',
 	'Deixaram pra contratar a consultoria quando começou a dar merda',
 	'O planejamento do projeto se resume a fazer tudo no tempo'
 ];
