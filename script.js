@@ -18,7 +18,7 @@ let motivos = [
 	, 'A empresa está contratando programador PHP'
 	, 'A empresa usa SVN'
 	, 'O código fonte é cheio de números mágicos'
-        , 'Usando SQL para registrar log'
+	, 'Usando SQL para registrar log'
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
