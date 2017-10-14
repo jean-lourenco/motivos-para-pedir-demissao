@@ -9,7 +9,8 @@ let motivos = [
 	'Demissão não se pede, se ganha!',
 	'A empresa usa Sybase',
 	'O comercial vendeu uma feature que não existe no sistema', 
-	'Agendaram a homologação do sistema para às 18h de sexta'
+	'Agendaram a homologação do sistema para às 18h de sexta',
+	'Patch de correção para um problema que foi criado por um patch anterior'
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
