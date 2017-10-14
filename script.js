@@ -15,6 +15,8 @@ let motivos = [
 	, 'Deixaram pra contratar a consultoria quando começou a dar merda'
 	, 'O planejamento do projeto se resume a fazer tudo no tempo'
 	, 'Não entendi a change, mas os totais voltaram a bater'
+	, 'A empresa está contratando programador PHP'
+	, 'A empresa usa SVN'
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
