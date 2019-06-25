@@ -19,7 +19,7 @@ let motivos = [
 	'Usando SQL para registrar log',
 	'Projeto com escopo aberto e prazo fechado',
 	'A Senior comprou a empresa',
-	'A empresa usa Delphi e Firebird (Quem que perde tempo com isso?)'
+	'A empresa usa Delphi e Firebird (Quem que perde tempo com isso?)',
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
