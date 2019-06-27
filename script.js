@@ -23,7 +23,7 @@ let motivos = [
 	'O banheiro fede',
 	'Ninguém tem tempo, o tempo todo.',
 	'Recebi outro projeto que pediram a conta antes de terminá-lo.',
-	'Tá todo mundo pedindo a conta já no meu primeiro dia de trabalho.'
+	'Tá todo mundo pedindo a conta já no meu primeiro dia de trabalho.',
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
