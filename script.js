@@ -23,7 +23,8 @@ let motivos = [
 	'Tá todo mundo pedindo a conta já no meu primeiro dia de trabalho.',
 	'Não querem me deixar trabalhar remoto.',
 	'Querem me passar outro projeto.',
-	'Não alinharam minha expectativa.'
+	'Não alinharam minha expectativa.',
+	'Houve uma proposta irrecusável de uma empresa que tem sede nova decente, além de outros benefícios como: possibilidade de trabalhar remoto e caixa de Budweiser a menos de 10 pila.',
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
