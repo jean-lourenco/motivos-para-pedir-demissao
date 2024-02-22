@@ -27,6 +27,7 @@ let motivos = [
 	'Não posso mais pegar férias.',
 	'Houve uma proposta irrecusável de uma empresa que tem sede nova decente, além de outros benefícios como: possibilidade de trabalhar remoto e caixa de Budweiser a menos de 10 pila.',
 	'Utilizam AngularJS e reclamam de performance.',
+	'Removeram o Rider do compliance',
 ];
 
 document.getElementById('motivo').firstChild.innerText = motivos[Math.trunc(Math.random() * motivos.length)];
